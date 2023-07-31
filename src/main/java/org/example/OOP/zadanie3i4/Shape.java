@@ -1,4 +1,4 @@
-package org.example.OOP.zadanie3;
+package org.example.OOP.zadanie3i4;
 
 public abstract class Shape {
     protected String color;

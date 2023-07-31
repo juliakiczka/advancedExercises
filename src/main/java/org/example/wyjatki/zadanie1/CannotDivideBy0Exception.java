@@ -1,4 +1,4 @@
-package org.example.wyjatki;
+package org.example.wyjatki.zadanie1;
 
 public class CannotDivideBy0Exception extends Exception {
     public CannotDivideBy0Exception() {

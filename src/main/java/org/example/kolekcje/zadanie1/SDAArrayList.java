@@ -1,4 +1,4 @@
-package org.example.kolekcje;
+package org.example.kolekcje.zadanie1;
 
 import java.util.Arrays;
 

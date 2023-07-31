@@ -1,4 +1,6 @@
-package org.example.programowanieFunkcyjne;
+package org.example.programowanieFunkcyjne.zadanie1;
+
+import org.example.programowanieFunkcyjne.zadanie1.Episode;
 
 import java.util.List;
 

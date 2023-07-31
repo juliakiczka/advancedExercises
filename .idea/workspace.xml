@@ -4,14 +4,82 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a307ee-4604-4f9d-8287-2a6b03547daa" name="Changes" comment="" />
+    <list default="true" id="97a307ee-4604-4f9d-8287-2a6b03547daa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie1/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie2/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie2/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie3/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie4/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie4/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie4/MediaContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie4/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie4/Newspaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie5/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie5/AnimalHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie5/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/typyGeneryczne/zadanie5/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie1/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie1/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie1/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie1/Point3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie2/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie2/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie3i4/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie3i4/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie3i4/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie3i4/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie3i4/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie3i4/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie3i4/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie3i4/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie5/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie5/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie5/Point2DExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie5/Point2DExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie6/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie6/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie6/MovableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie6/MovableCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie6/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie6/MovablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie7/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie7/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie7/GeometricObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie7/GeometricObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie7/Resizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie7/Resizable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie7/ResizableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OOP/zadanie7/ResizableCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie1/SDAArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie1/SDAArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie2/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie2/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie2/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie2/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie2/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie2/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie2/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie4/BookServiceExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie4/BookServiceExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie5/BookServiceExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kolekcje/zadanie5/BookServiceExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/Episode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/Season.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/VideoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieFunkcyjne/zadanie1/VideoType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/typWyliczeniowy/zadanie2/PackageSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/typWyliczeniowy/zadanie2/PackageSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/typWyliczeniowy/zadanie3/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/typWyliczeniowy/zadanie3/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/typWyliczeniowy/zadanie3/TemperatureConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/typWyliczeniowy/zadanie3/TemperatureConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie1/CannotDivideBy0Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie1/CannotDivideBy0Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie1/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie1/MathUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie2/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie2/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie2/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie2/NoBookFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/wyjatki/zadanie2/NoBookFoundException.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Qi24F0MLU4hOrSFBLVLWcm3nhj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,12 +87,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projekty/kursJava/zadania_z_kursu/JavaZaawansowanaZadania&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.kolekcje.zadanie2" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +110,16 @@
       <updated>1685821890395</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

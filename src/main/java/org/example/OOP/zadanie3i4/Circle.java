@@ -1,4 +1,4 @@
-package org.example.OOP.zadanie3;
+package org.example.OOP.zadanie3i4;
 
 public class Circle extends Shape {
     protected int radius;

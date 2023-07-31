@@ -1,4 +1,4 @@
-package org.example.zadanie2;
+package org.example.OOP.zadanie2;
 
 public class Student extends Person {
     protected String studyType;

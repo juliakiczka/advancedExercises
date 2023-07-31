@@ -1,4 +1,4 @@
-package org.example.programowanieFunkcyjne;
+package org.example.programowanieFunkcyjne.zadanie1;
 
 public class Video {
     public String title;

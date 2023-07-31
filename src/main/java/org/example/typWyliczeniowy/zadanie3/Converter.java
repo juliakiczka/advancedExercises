@@ -1,2 +1,5 @@
-package org.example.typWyliczeniowy.zadanie3;public interface Converter {
+package org.example.typWyliczeniowy.zadanie3;
+
+public interface Converter {
+    float convert(float tempIn);
 }
