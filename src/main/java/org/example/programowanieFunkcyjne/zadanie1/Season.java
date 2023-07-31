@@ -3,9 +3,9 @@ package org.example.programowanieFunkcyjne;
 import java.util.List;
 
 public class Season {
-    private String seasonName;
-    private int seasonNumber;
-    private List<Episode> episodes;
+    public String seasonName;
+    public int seasonNumber;
+    List<Episode> episodes;
 
     public Season(String seasonName, int seasonNumber, List<Episode> episodes) {
         this.seasonName = seasonName;
