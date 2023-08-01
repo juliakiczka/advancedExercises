@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a307ee-4604-4f9d-8287-2a6b03547daa" name="Changes" comment="adding additional exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/podstawyRefleksji/zadanie1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/podstawyRefleksji/zadanie1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/podstawyRefleksji/zadanie2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/podstawyRefleksji/zadanie2/StudentExt.java" afterDir="false" />
+    <list default="true" id="97a307ee-4604-4f9d-8287-2a6b03547daa" name="Changes" comment="adding reflection exercises">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaIO/zadanie1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaIO/zadanie2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaIO/zadanie3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie2/Bridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie4/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/zadania" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690800810483</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding reflection exercises">
+      <created>1690802600343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690802600343</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding additional exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding additional exercises" />
+    <MESSAGE value="adding reflection exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding reflection exercises" />
   </component>
 </project>
