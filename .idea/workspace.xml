@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a307ee-4604-4f9d-8287-2a6b03547daa" name="Changes" comment="adding reflection exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaIO/zadanie1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaIO/zadanie2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaIO/zadanie3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie2/Bridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie4/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/programowanieWspolbiezneRownolegle/zadanie4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/zadania" afterDir="false" />
+    <list default="true" id="97a307ee-4604-4f9d-8287-2a6b03547daa" name="Changes" comment="adding some threads' exercises">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaIO/zadanie4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/zadania" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/zadania" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projekty/kursJava/zadania_z_kursu/JavaZaawansowanaZadania&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Projekty/kursJava/zadania_z_kursu/SpringZadania&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -87,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690802600343</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding some threads' exercises">
+      <created>1690912751884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690912751884</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding additional exercises" />
     <MESSAGE value="adding reflection exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding reflection exercises" />
+    <MESSAGE value="adding some threads' exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some threads' exercises" />
   </component>
 </project>

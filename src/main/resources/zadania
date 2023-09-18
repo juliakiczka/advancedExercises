@@ -1,2 +1,692 @@
-bla bla
-sda
+y
+float y
+x
+getXYZ
+OOP - zadania
+Zadanie 1
+Klasa Point2D
+Zaimplementuj klasę Point2D . Klasa powinna zawierać:
+dwa pola typu float: x ,
+konstruktor bezparametrowy ustawiający wartość pól
+konstruktor z dwoma parametrami: float x ,
+i na
+metody typu getter odpowiedzialne za zwracanie wartości zmiennej: x ,
+metodę getXY zwracającą współrzędne x i y w postaci tablicy
+dwuelementowej
+metody typu setter odpowiedzialne za ustawianie wartości pól x ,
+metodę setXY ustawiającą współrzędne i
+metoda
+formacie: (x, y) ;
+Klasa Point3D
+powinna zwracać łańcuch tekstowy o następującym
+Na podstawie klasy Point2D zaimplementuj klasę Point3D. Klasa ta powinna
+rozszerzać klasę Point2D oraz dodawać następującą implementację:
+pole prywatne typu float:
+konstruktor przyjmujący wartości dla pól: x , y ,
+metodę typu getter odpowiedzialną za zwracanie wartości zmiennej
+metodę
+trzyelementowej
+zwracającą współrzędne x , y , w postaci tablicy
+metodę typu setter odpowiedzialną za ustawianie zmiennej
+y
+x 0
+y
+y
+y
+toString
+z
+z
+z
+z
+z
+name address
+toString
+?
+toString
+metodę
+metoda
+ustawiającą wartości dla zmiennych x , y ,
+powinna zwracać łańcuch tekstowy o następującym
+formacie: (x, y, z) ;
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+Zadanie 2
+Klasa Person
+Zaimplementuj klasę Staff. Klasa powinna rozszerzać klasę Person . Klasa powinna
+zawierać:
+dwa pola typu String: name ,
+konstruktor bezparametrowy ustawiający wartość pól i na
+pusty String
+konstruktor z dwoma parametrami: String name ,
+metody typu getter odpowiedzialne za zwracanie wartości zmiennej: name ,
+metody typu setter odpowiedzialne za ustawianie wartości pól name ,
+metoda powinna zwracać łańcuch tekstowy o następującym
+formacie: ?->? , gdzie to odpowiednio imię i adres;
+Klasa Student
+Zaimplementuj klasę Student . Klasa ta powinna rozszerzać klasę Person .
+Dodatkowo powinna zawierać:
+trzy pola: typ studiów, rok studiów, koszt studiów
+konstruktor z trzema parametrami: typ studiów, rok studiów, koszt studiów
+metody typu getter dla zdeklarowanych pól
+metody typu setter dla zdeklarowanych pól
+metoda wyświetlająca szczegółowe informacje o studencie
+setXYZ z
+toString
+address
+String address
+address
+address
+toString
+color unknown
+isFilled false
+color
+isFilled
+Klasa Staff
+Zaimplementuj klasę Staff . Klasa ta powinna rozszerzać klasę Person .
+Dodatkowo powinna zawierać:
+dwa pola: specjalizacja oraz wynagrodzenie
+konstruktor z dwoma parametrami: specjalizacja, wynagrodzenie
+metody typu getter dla zdeklarowanych pól
+metody typu setter dla zdeklarowanych pól
+metodę wyświetlającą szczegółowe informacje o wykładowcy
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+Zadanie 3
+Klasa Shape
+Zaimplementuj klasę Shape . Klasa powinna zawierać:
+pole odpowiedzialne za przechowywanie koloru
+pole odpowiedzialne za przechowywanie informacji o tym czy kolor
+powinien wypełniać figurę czy nie
+konstruktor bezparametrowy ustawiający wartość pola na i
+na
+konstruktor przyjmujący parametry i
+metody typu
+metody typu
+nadpisaną metodę
+odpowiedzialne za zwracanie wartości pól klasy
+odpowiedzialne za ustawianie wartości pól klasy
+odpowiedzialną za wyświetlanie następującej
+informacji: Shape with color of ? and filled/NotFilled , gdzie ?
+oznacza wartość kolor, a wartość filled /
+zwracana w zależności od pola
+powinna zostać
+Klasa Circle
+isFilled
+getter
+setter
+toString
+not filled
+Shape
+color unknown
+false radius
+getArea
+getPerimeter
+toString
+y
+toString
+Shape
+color unknown
+false width length
+width
+length
+width
+getPerimeter
+Rectangle with width=? and length=? which is a subclass
+Zaimplementuj klasę Circle , która będzie rozszerzać klasę o
+następujące cechy:
+pole odpowiedzialne za przechowywanie wartości promienia
+konstruktor bezparametrowy ustawiający wartość pola na i
+na oraz pola na
+konstruktor przyjmujący parametry color , isFilled ,
+metodę typu
+metodę typu
+metodę
+metodę
+odpowiedzialną za zwracanie wartości pola
+odpowiedzialną za ustawianie wartości pola
+odpowiedzialną za obliczanie pola powierzchni
+odpowiedzialną za obliczanie obwodu
+nadpisaną metodę odpowiedzialną za wyświetlanie następującej
+informacji: Circle with radius=? which is a subclass off y , gdzie ?
+oznacza wartość promienia, a wartość powinna być rezultatem
+wywołania metody z klasu bazowej
+Klasa Rectangle
+Zaimplementuj klasę Rectangle , która będzie rozszerzać klasę o
+następujące cechy:
+pole szerokość oraz długość będące typem
+konstruktor bezparametrowy ustawiający wartość pola na i
+na oraz pola i na
+konstruktor przyjmujący parametry color , isFilled , i
+metody typu
+metody typu
+do zwracania wartości pól width ,
+do ustawiania wartości pól i
+metodę
+metodę
+odpowiedzialną za obliczanie pola powierzchni
+odpowiedzialną za obliczanie obwodu
+nadpisaną metodę
+informacji:
+odpowiedzialną za wyświetlanie następującej
+off y , gdzie ? oznacza wartość odpowiednio szerokości i długości, a
+isFilled 1
+radius
+getter radius
+setter radius
+double
+isFilled 1
+length
+getter
+setter length
+getArea
+toString
+Shape
+protected
+Shape getArea
+Point2D
+wartość
+bazowej
+powinna być rezultatem wywołania metody z klasy
+Klasa Square
+Zaimplementuj klasę Square , która będzie rozszerzać klasę Rectangle . Klasa
+ta nie powinna wprowadzać nowych pól oraz funkcjonalności, ale powinna
+wymuszać na klasie bazowej zachowanie kwadratu.
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+Zadanie 4
+Zmodyflkuj implementację przygotowaną w ramach Zadania nr 2. W tym celu
+dokonaj następującej refaktoryzacji:
+zmodyflkuj klasę
+pola klasy
+tak by była to klasa abstrakcyjna
+powinny być oznaczone modyflkatorem dostępu typu
+klasa powinna zawierać metody abstrakcyjne i
+Wszystkie klasy dziedziczące bezpośrednio lub pośrednio po klasie
+powinny nadpisywać metody abstrakcyjne z klasy nadrzędnej.
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+Zadanie 5
+Zaimplementuj klasę Line , która będzie zawierać (na zasadzie kompozycji)
+instancję dwóch obiektów z zadania nr 1. Punkty te będą punktem
+początkowym oraz końcowym odcinka. Ponadto klasa ta powinna
+implementować:
+konstruktor przyjmujący dwa punkty: początkowy i końcowy
+y toString
+Shape
+Shape
+getPerimeter
+MovablePoint
+MovablePoint
+y
+ySpeed
+y
+x
+konstruktor przyjmujący 4 parametry: współrzędne punktu początkowego
+oraz końcowego
+metody typu
+i końcowego
+metody typu
+końcowego
+odpowiedzialne za zwracanie punktów: początkowego
+odpowiedzialne za ustalanie punktów: początkowego i
+metodę odpowiedzialną za obliczanie długości linii na podstawie
+ustawionych punktów
+metodę odpowiedzialną za zwracanie współrzędnych punktu będącego
+środkiem stworzonej prostej
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+Zadanie 6
+Zaimplementuj interfejs Movable , który będzie zawierać definicję wspólnych
+zachowań dla klas i MovableCircle . Będą to metody:
+Klasa MovablePoint
+Klasa powinna implementować interfejs Movable , a ponadto
+powinna zawierać 4 pola typu int : x , y , xSpeed , ySpeed . Pola x , powinny
+definiować współrzędne punktu, natomiast pola xSpeed ,
+określać o ile powinny zmieniać się odpowiednie współrzędne.
+powinny
+metody oraz powinny każdorazowo
+zwiększać/zmniejszać wartość współrzędnej o wskazaną wartość:
+metody oraz powinny każdorazowo
+zwiększać/zmniejszać wartość współrzędnej o wskazaną wartość
+getter
+setter
+moveUp() moveDown()
+moveLeft moveRight()
+void moveUp()
+void moveDown()
+void moveLeft()
+void moveRigth()
+ySpeed
+MovableCircle
+MovablePoint
+ySpeed
+MovablePoint
+xSpeed
+Circle
+GeometricObject
+Resizable
+Klasa MovableCircle
+Klasa powinna implementować interfejs Movable , a ponadto
+powinna zawierać (na zasadzie kompozycji) instancję klasy MovablePoint .
+Dodatkowo powinna zawierać pole niezbędne do określenia promienia koła.
+metody oraz powinny każdorazowo
+zwiększać/zmniejszać wartość współrzędnej
+wskazaną w nim wartość:
+punktu o
+metody oraz powinny każdorazowo
+zwiększać/zmniejszać wartość współrzędnej
+wskazaną w nim wartość:
+punktu o
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie. Dodatkowo
+uwzględnij w przykładzie reprezentację polimorflzmu.
+Zadanie 7
+Zaimplementuj interfejs GeometricObject , który będzie zawierać deflnicję
+wspólnych zachowań dla klas pochodnych:
+Klasa Circle
+Klasa powinna implementować interfejs GeometricObject , a ponadto
+zawierać pole: promień. Metody interfejsu
+zaimplementowane zgodnie z deflnicjami metematycznymi.
+Interfejs Resizable
+powinny zostać
+Interfejs powinien deklarować metodę resize(int percent) , która
+ma być odpowiedzialna za przeskalowanie obiektów implementujących
+xSpeed
+moveUp() moveDown()
+y
+moveLeft moveRight()
+x
+double getPerimeter()
+double getArea()
+ResizableCircle
+tworzony interfejs.
+Klasa ResizableCircle
+Klasa powinna implementować interfejs Resizable . Metoda
+interfejsu powinna zmniejszać procentowo promień koła.
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+resize
+Book
+Book
+Book
+Book
+Book
+Wyjątki - zadania
+Zadanie 1
+Zaimplementuj metodę divide , która docelowo ma podzielić dwie liczby
+będące atrybutami metody. W przypadku, gdy drugi parametr metody jest równy
+0, powinien zostać wyrzucony niedomyślny wyjątek:
+Zadanie 2
+Klasa BookRepository
+Zaimplementuj klasę BookRepository , która będzie odpowiedzialna za:
+dodawanie obiektów typu
+usuwanie obiektów typu
+wyszukiwanie obiektów typu
+wyszukiwanie obiektu typu
+usuwanie obiektów typu
+o wskazanej nazwie
+o wskazanym id
+na podstawie przekazanego
+Klasa Book
+Klasa powinna zawierać poniższe pola:
+isbn
+tytuł
+autor
+rok wydania
+NoBookFoundException
+Book
+id
+CannotDivideBy0Exception .
+W przypadku braku jakichkolwiek rezultatów wyszukiwania, powinien zostać
+wyrzucony wyjątek: NoBookFoundException . Wyjątek ten powinien być
+własnoręcznie zaimplementowanym wyjątkiem, przyjmujący jako parametr
+konstruktora obiekt typu
+odszukać.
+String z informacją jakich elementów nie udało się
+validateEmails
+unknown
+unknown
+getter
+Klasy i interfejsy - zadania
+Zadanie 1
+Zaimplementuj klasę UserValidator , która w ramach metody
+będzie odpowiedzialna za walidację danych użytkownika: email, email
+alternatywny. W ramach metody zadeklaruj klasę lokalną
+Email , która będzie odpowiedzialna za formatowanie wskazanego adresu email
+uwzględniając następujące reguły:
+jeśli wskazany adres email jest pusty, bądź jest nullem należy ustawić mu
+wartość
+jeśli wskazany adres email nie spełnia założeń adresu email, należy ustawić
+wartość (skorzystaj w tym celu z wyrażeń regularnych)
+Zadanie 2
+Klasa Movie
+Zaimplementuj klasę Movie , która będzie zawierać pola reprezentujące
+informacje takie jak: tytuł, reżyser, rok wydania, gatunek, wydawca. Klasa ta
+powinna zawierać domyślny konstruktor oraz metody typu i setter ,
+oraz nadpisaną metodę toString , która będzie odpowiedzialna za zwracanie
+informacji o właściwościach konkretnego filmu.
+Klasa MovieCreator
+Zaimplementuj klasę zagnieżdżoną statyczną MovieCreator . Klasa ta powinna:
+zawierać pola klasy takie same jak klasa Movie
+zawierać metody umoliżwiające ustawianie konkretnych właściwości filmu.
+Każda z metod powinna zwracać instancję obiektu, na rzecz którego
+wywoływana jest metoda
+validateEmails
+Movie
+getter i setter .
+boolean validate(T input)
+setter getter
+setter
+Validator
+validate
+metodę createMovie , która na podstawie ustawionych parametrów stworzy
+instancję klasy i zwróci ją w rezultacie działania metody
+Zadanie 3
+Klasa Car
+Zaimplementuj klasę Car , która będzie przechowywać informacje o nazwie i
+typie samochodu. Klasa ta powinna zwierać metody typu
+Klasa Engine
+Zaimplementuj klasę Engine , która będzie zagnieżdzoną klasą niestatyczną w
+ramach klasy Car . Klasa ta powinna zawierać pole: typ silnika oraz metodę
+setEngine , która ustawi odpowiedni typ na podstawie typu samochodu. Jeśli
+typ samochodu będzie równy economy , to typ silnika powinien zostać ustawiony
+na diesel . Jeśli typ samochodu bedzie równy luxury , to typ silnika powinien
+zostać zdeflniowany jako electric . W innym przypadku typ silnika powinien
+być równy petrol .
+Zadanie 4
+Interfejs Validator
+Zaimplementuj interfejs Validator, który będzie zawierać w swojej deklaracji
+metodę .
+Klasa User
+Zaimplementuj klasę User, która będzie zawierać: * pola: imię, nazwisko, wiek,
+login, hasło * konstruktor bezparametrowy * metody typu i *
+metody typu powinny przyjmować w swoim ciele odpowiednią wartość
+pola oraz instancję klasy implementującej interfejs * metody typu
+powinny wywoływać metodę na podstawie instancji
+przekazanego obiektu. Parametrem przekazywanym do metody
+powinna być wartość pierwszego argumentu
+setter
+validate
+Validator
+Klasy anoniowe
+Mechanizmy walidujące klasy powinny zostać zaimplementowane w
+postaci klas anonimowych. Ponadto poszczególne klasy anonimowe powinny
+weryfikować poniższe zasady:
+walidacja imienia: imię nie może być puste ani być nullem, powinno
+zaczynać się od wielkiej litery
+walidacja nazwiska: nazwisko nie może być puste ani być nullem, powinno
+zaczynać się od wielkiej litery
+walidacja wieku: wartość powinna mieścić się w przedziale o 0 do 150
+login: wartość pola powinna składać się z 10 znaków
+hasło: powinno zawierać znak
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+!
+isHoliday
+PackageSize
+cm
+PackageSize
+PackageSize
+TemperatureConvert
+Typ wyliczeniowy - zadania
+Zadanie 1
+Stwórz klasę enum
+powinien zawierać metody
+ze stałymi MONDAY , TUESDAY , ... SUNDAY . Enum
+oraz boolean isHoliday .
+Metoda powinna zwracać rezultat przeciwny od rezultuatu
+wywołania metody isWeekDay . Dodatkowo w ramach klasy enum powinna być
+zadeklarowana i zaimplementowana metoda whichIsGreater . Metoda ta
+powinna przyjmować obiekt typu Weekday . Metoda ta powinna wyświetlać
+informacje o tym, że wskazany dzień tygodnia jest poprzednikiem bądź
+następnikiem dnia tygodnia przekazanego w argumencie. W tym celu skorzystaj
+z metody compareTo .
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+Zadanie 2
+Stwórz klasę enum ze stałymi SMALL , MEDIUM , LARGE . Enum
+powinien przyjmować w konstruktorze dwa parametry:
+minimalny rozmiar paczki w
+maksymalny rozmiar paczki w
+Dodatkowo enum powinien zawierać metodę statyczną
+getPackageSize , która przyjmuje na wejściu minimalny i maksymalny rozmiar
+paczki, a jako rezultat powinna zwracać konkretny obiekt na
+podstawie przekazanego rozmiaru paczki.
+Zadanie 3
+Stwórz klasę enum ze stałymi C_F , C_K , K_C , F_C , F_K ,
+K_F . Enum powinien zawierać konstruktor przyjmujący trzy parametry:
+Weekday
+boolean isWeekDay
+cm
+Converter
+TemperatureConvert
+jednostkę temperatury na wejściu
+jednostkę temperatury na wyjściu
+instancję interfejsu (z metodą float convert(float tempIn) ) -
+instancja ta powinna deflnować niezbędne obliczenia w celu konwersji
+temperatury
+Dodatkowo enum powinien zawierać metodę statyczną
+convertTemperature , która przyjmuje następujące parametry:
+jednostkę temperatury na wejściu
+jednostkę temperatury na wyjściu
+wartość temperatury
+Metoda ta powinna zwracać skonwertowaną wartość. Do znalezienia
+odpowiedniej stałej należy skorzystać z metody values() .
+hashCode
+Kolekcje - zadania
+Zadanie 1
+Zaimplementuj klasę SDAArrayList<T> , która będzie implementować logikę
+ArrayList<T> . W tym celu zaimplementuj obsługę metod:
+add
+remove
+get
+display
+Zadanie 2
+Klasa Author
+Zaimplementuj klasę Author , która będzie zawierać pola: imię, nazwisko, płeć.
+Uwzględnij wszystkie niezbędne meotody oraz parametry konstruktora.
+Zaimplementuj klasę i equals .
+Klasa Book
+Zaimplementuj klasę Book , która będzie zawierać pola: tytuł, cena, rok wydania
+oraz lista autorów, gatunek (reprezentowany jako klasa enum). Uwzględnij
+wszystkie niezbędne metody oraz parametry konstruktora. Zaimplementuj klasę
+i equals .
+Klasa BookService
+Zaimplementuj klasę BookService , która będzie zawierać w sobie listę książek,
+oraz będzie realizować poniższe metody:
+dodawanie książek do listy
+hashCode
+Fantasy
+rosnąco/malejąco
+100
+0-50
+usuwanie książek z listy
+zwracanie listy wszystkich książek
+zwracanie książek typu
+zwracanie książek wydanych przed rokiem
+zwracanie najdroższej książki
+zwracanie najtańszej książki
+zwracanie książki z conajmniej
+zwracanie listy wszystkich książek posortowanych zgodnie z przekazanym
+parametrem:
+sprawdzanie czy konkretna książka znajduje się na liście
+zwracanie listy książek napisanych przez konkretnego autora
+Zadanie 3
+Na podstawie
+przedziału
+elementowej tablicy z losowo wybranymi wartościami z
+zaimplementuj następujące funkcjonalności:
+zwróć listę unikalnych elementów
+zwróć listę elementów, które conajmniej raz powtórzyły się w
+wygenerowanej tablicy
+Zadanie 4
+Na podstawie zadania nr 2 zaimplementuj metodę, która będzie odpowiedzialna
+za zwracanie unikalnych par: klucz, wartość. Kluczem powinien być gatunek
+książki, a wartością jej tytuł.
+Zadanie 5
+Na podstawie zadania nr 2 zaimplementuj metodę, która będzie odpowiedzialna
+stworzenie stosu książek posortowanych od ceny najwyższej do najniższej.
+1999
+3 autorów
+Programowanie funkcyjne - zadania
+Zadanie 1
+Wykorzystując mechanizmy programowania funkcyjnego na podstawie zadanej
+struktury wyświetl:
+listę wszystkich epizodów
+listę wszystkich filmów
+listę wszystkich nazw sezonów
+listę wszystkich numerów sezonów
+listę wszystkich nazw epizodów
+listę wszystkich numerów epizodów
+listę wszystkich nazw video
+listę wszystkich adresów url dla każdego video
+tylko epizody z parzystych sezonów
+tylko video z parzystych sezonów
+tylko video z parzystych epizodów i sezonów
+tylko video typu Clip z parzystych epizodów i nieparzystych sezonów
+tylko video typu Preview z nieparzystych epizodów i parzystych sezonów
+enum VideoType {
+CLIP, PREVIEW, EPISODE
+}
+class Video {
+public String title;
+public String url;
+public VideoType videoType;
+public Video(String title, String url, VideoType videoType) {
+this.title = title;
+this.url = url;
+this.videoType = videoType;
+}
+}
+class Episode {
+public String episodeName;
+public int episodeNumber;
+List<Video> videos;
+public Episode(String episodeName, int episodeNumber,
+List<Video> videos) {
+this.episodeName = episodeName;
+this.episodeNumber = episodeNumber;
+this.videos = videos;
+}
+}
+class Season {
+public String seasonName;
+public int seasonNumber;
+List<Episode> episodes;
+public Season(String seasonName, int seasonNumber,
+List<Episode> episodes) {
+this.seasonName = seasonName;
+this.seasonNumber = seasonNumber;
+this.episodes = episodes;
+}
+}
+Typy generyczne - zadania
+Zadanie 1
+Zaprojektuj klasę Pair , która w oparciu o typy generyczne będzie umożliwiała
+przechowanie dowolnej pary obiektów.
+Zadanie 2
+Zaimplementuj generyczną metodę countIf , która na podstawie tablicy
+dowolnego typu oraz wskazanej funkcji zliczy liczbę elementów spełniających
+warunek. Funkcją może być dowolony interfejs zaimplementowany anonimowo.
+Zadanie 3
+Zaimplementuj generyczną metodę swap , która będzie odpowiedzialna za
+zamianę pozycji wskazanych elementów tablicy.
+Zadanie 4
+Zaprojektuj klasę, która będzie zachowywać się jak biblioteka dla następujących
+rodzajów mediów:
+książek
+gazet
+filmów
+Zaproponuj rozwiązanie w oparciu o typy generyczne. W celu przechowywania
+danych skorzystaj z tablic, bądź dowolnego API służącego do przechowywania
+danych.
+Zadanie 5
+Zaprojektuj klasę, która będzie zachowywać się jak dom dla zwierząt:
+kot
+pies
+Zaproponuj rozwiązanie w oparciu o typy generyczne. W celu przechowywania
+danych skorzystaj z tablic, bądź dowolnego API służącego do przechowywania
+danych.
+Java IO - zadania
+Zadanie 1
+Napisz program, który wyświetli wszystkie pliki/katalogi zawarte w danym
+katalogu.
+Zadanie 2
+Napisz program, który odczyta i wyświetli cały dowolny plik linia po linii.
+Zadanie 3
+Napisz program, który doda do wskazanego pliku dowolny łańcuch tekstowy.
+Zadanie 4
+Napisz program, który jest odpowiedzialny za zwrócenie najdłuższego słowa we
+wskazanym pliku tekstowym.
+Zadanie 5
+Napisz program, który będzie realizować funkcjonalność parsera CSV.
+Z wykorzystaniem powyższego pliku jego odczytanie powinno skutkować
+zwróceniem listy trzyelementowej obiektów typu
+wiek.
+User o polach: imię, nazwisko,
+John,Smith,23
+Sam,Johnson,40
+Andrew,Manly,43
+Movie
+Zadanie 6
+Napisz program, który będzie realizować poniższe operacje na obiektach klasy
+dodawanie obiektów
+wyświetlanie listy obiektów
+Klasa powinna zawierać pola: tytuł , gatunek , reżyser , rok wydania .
+Dodawanie obiektów powinno przesyłać ich zserializowaną formę do pliku.
+Wyświetlanie listy obiektów powinno umożliwiać deserializację pliku tekstowego
+w celu konwersji poszczgólnych linii na obiekty.
+Movie :
+1000-2000
+A B
+Car
+Programowanie współbieżne i równoległe -
+zadania
+Zadanie 1
+Napisz program, który równolegle znajdzie liczby parzyste w dwóch
+przedziałach: oraz 14300-17800 .
+Zadanie 2
+Napisz program, który ma za zadanie rozwiązać poniższy problem.
+Na trasie pomiędzy miejscowościami i położony jest most, na którym
+może znajdować się tylko i wyłącznie jeden samochód. Zaimplementuj
+mechanizm, który umożliwi zsynchronizowany dostęp do obiektu klasy Bridge ,
+obiektom klasy Car .
+Klasa powinna zawierać poniższe informacje:
+nazwa samochodu
+typ samochodu
+Klasa Bridge powinna zawierać metodę:
+driveThrough, która przyjmie jako parametr obiekt klasy Car . Przejazd
+powineń trwać 5s.
+Zadanie 3
+Napisz program, który na dwóch osobnych wątkach będzie wykonywać dwa
+niezależne algorytmy sortowania. Celem programu jest zwrócenie informacji o
+algorytmie, który wykonał się szybciej. Sortowana tablica
+tablicą losowo wygenerowanych liczb.
+10000 powinna być
+Zadanie 4
+Napisz aplikację, która będzie synchronizować dostęp do rachunku bankowego.
+W przypadku, gdy dowolna cykliczna usługa internetowa będzie chciała obciążyć
+rachunek kwotą wyższą niż aktualnie dostępna, powinno nastąpić wstrzymanie
+wątku. W momencie, gdy na rachunek zostaną przelane dodatkowe środki,
+powinno nastąpić wzbudzenie wątku.
+Zadanie 5
+Napisz strukturę danych, która umożliwi poruszanie się po tablicy w dwóch
+kierunkach:
+do przodu ( next() )
+do tyłu ( prev() )
+Struktura danych powinna przechowywać aktualnie przeszukiwany index. Zadbaj
+o jego dodatkową synchronizację.
+Student
+Student
+getter
+Podstawy refleksji - zadania
+Zadanie 1
+Wykorzystując klasę o poniższych cechach:
+klasa powinna zawierać pola: imię, nazwisko, nr indeksu, kierunek studiów
+klasa powinna zwierać konstruktor bezparametrowy, oraz konstruktor
+przyjmujący jako argument wartości dla każdego z pól
+metody typu
+metody typu
+Wyświetl następujące informacje wykorzystując mechanizm refleksji:
+dostępne metody
+dostępne pola
+dostępne konstruktory
+Zadanie 2
+Na podstawie klasy z zadania nr 1 wykonaj następujace operacje
+wykorzystując mechanizm refleksji:
+tworzenie obiektu z przekazaniem wszystkich wymaganych parametrów
+wywołanie metod typu
+bezpośrednie modyflkacje wartości pól prywatnych
+setter
+getter
