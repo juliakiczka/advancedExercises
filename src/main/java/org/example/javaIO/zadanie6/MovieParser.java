@@ -8,7 +8,7 @@ public class MovieParser {
         return new Movie(data[0], data[1], data[2], Integer.parseInt(data[3]));
     }
 
-    public String toCSV(Movie movie) {
+    public byte[] toCSV(Movie movie) {
         return new StringBuilder().append(movie.getTitle())
                 .append(SEPARATOR)
                 .append(movie.getGenre())
@@ -17,6 +17,6 @@ public class MovieParser {
                 .append(SEPARATOR)
                 .append(movie.getYearOfRelease())
                 .append("\n")
-                .toString();
+                .toString().getBytes();
     }
 }
